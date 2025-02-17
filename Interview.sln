@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{456697BF-4CAD-4A19-8084-161BA09EB3AF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1DC70A8D-90D4-4586-9F38-0EC6FFB5C219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoApi", "src\VideoApi\VideoApi.csproj", "{63A04A71-961F-469C-AE96-501A9DECBBD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63A04A71-961F-469C-AE96-501A9DECBBD7} = {456697BF-4CAD-4A19-8084-161BA09EB3AF}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A04A71-961F-469C-AE96-501A9DECBBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A04A71-961F-469C-AE96-501A9DECBBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A04A71-961F-469C-AE96-501A9DECBBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A04A71-961F-469C-AE96-501A9DECBBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
